@@ -6,7 +6,7 @@
     ],
     "baseUrl": "https://jensrutschmann.github.io/connect-tests/space-tools/a",
     "authentication": {
-        "type": "jwt"
+        "type": "none"
     },
     "modules": {
         "spaceToolsTabs": [
