@@ -1,0 +1,23 @@
+{
+    "name": "Example Add-on A",
+    "key": "com.example.addon-a",
+    "scopes": [
+        "read"
+    ],
+    "baseUrl": "https://jensrutschmann.github.io/connect-tests/space-tools/a",
+    "authentication": {
+        "type": "jwt"
+    },
+    "modules": {
+        "spaceToolsTabs": [
+            {
+                "key": "addon-a-space-tool-tab",
+                "name": {
+                    "value": "Example Add-on A"
+                },
+                "location": "addons",
+                "url": "/tab.html"
+            }
+        ]
+    }
+}
