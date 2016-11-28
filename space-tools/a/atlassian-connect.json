@@ -16,6 +16,14 @@
                     "value": "Example Add-on A"
                 },
                 "location": "addons",
+                "conditions": [
+                    {
+                        "condition": "space_function_permission",
+                        "params": {
+                            "permission": "SETSPACEPERMISSIONS"
+                        }
+                    }
+                ],
                 "url": "/tab.html"
             }
         ]
