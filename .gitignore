@@ -1,0 +1,19 @@
+target/
+.settings
+.project
+.classpath
+.idea
+*.iml
+THIRD-PARTY-LICENSES-DEF.properties
+npm-debug.log
+node_modules/
+dist/
+application-personal.properties
+
+
+# OS generated files #
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+.Directory
