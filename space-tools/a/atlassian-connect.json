@@ -16,15 +16,7 @@
                     "value": "Example Add-on A"
                 },
                 "location": "addons",
-                "conditions": [
-                    {
-                        "condition": "space_function_permission",
-                        "params": {
-                            "permission": "SETSPACEPERMISSIONS"
-                        }
-                    }
-                ],
-                "url": "/tab.html"
+                "url": "/tab.html?isSpaceAdmin={condition.space_function_permission(permission=SETSPACEPERMISSIONS)}"
             }
         ]
     }
